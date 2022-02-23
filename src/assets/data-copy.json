@@ -1,0 +1,102 @@
+{
+  "Header": {
+    "LogoPath": "",
+    "Name": "",
+    "AllLinks": [
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" }
+    ],
+    "Button": {
+      "Title": "",
+      "Link": ""
+    }
+  },
+  "Hero": {
+    "ImagePath": "",
+    "Title": "",
+    "Description": "",
+    "ButtonLinks": [
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" }
+    ]
+  },
+  "Feature-1": {
+    "ImagePath": "",
+    "Title": "",
+    "Description": ""
+  },
+  "Feature-2": {
+    "ImagePath": "",
+    "Title": "",
+    "Description": ""
+  },
+  "Feature-3": {
+    "ImagePath": "",
+    "Title": "",
+    "Description": ""
+  },
+  "Feature-4": {
+    "ImagePath": "",
+    "Title": "",
+    "Description": ""
+  },
+  "GenkiFriends": {
+    "Title": "",
+    "Description": "",
+    "Friends": [
+      {
+        "ImagePath": "",
+        "Name": ""
+      },
+      {
+        "ImagePath": "",
+        "Name": ""
+      },
+      {
+        "ImagePath": "",
+        "Name": ""
+      },
+      {
+        "ImagePath": "",
+        "Name": ""
+      }
+    ]
+  },
+  "Footer": {
+    "LogoPath": "",
+    "Title": "",
+    "Description": "",
+    "Category1": [
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" }
+    ],
+    "Category2": [
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" }
+    ],
+    "Category3": [
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" }
+    ],
+    "Category4": [
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" },
+      { "Description": "", "Link": "" }
+    ],
+    "Footnote":"",
+    "SocialLinks":[
+        {"FacebookLink":""},
+        {"TwitterLink":""},
+        {"InstagramLink":""},
+        {"LinkedInLink":""}
+    ]
+  }
+}
