@@ -1,12 +1,11 @@
-<header class="text-gray-600 body-font">
+<!-- <header class="text-white bg-genki-orange body-font h-12">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg> -->
-        <!-- <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> -->
-        <img src="https://dummyimage.com/10x10" alt="" class="w-10 h-10 p-2 rounded-full" srcset="">
-        <span class="ml-3 text-xl">{{Header.Name}}</span>
+        </svg>
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+        <img src="../../../assets/img/header-logo.svg" alt="" class="w-10 h-10 p-2 rounded-full" srcset="">
       </a>
       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
         <a class="md:mx-0 md:mr-5 mx-3 hover:text-gray-900 cursor-pointer">Docs</a>
@@ -14,9 +13,34 @@
         <a class="md:mx-0 md:mr-5 mx-3 hover:text-gray-900 cursor-pointer">Genki Search</a>
       </nav>
       <button class="inline-flex items-center bg-yellow-500 text-white border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0">Use Genki
-        <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg> -->
+        </svg>
       </button>
     </div>
-  </header>
+  </header> -->
+<header class="z-10 h-16 md:h-12 md:px-[75px] pr-8 w-full bg-genki-orange flex fixed md:static justify-between items-center">
+  <div class="flex items-center justify-start">
+    
+    <img src="../../../assets/img/options-logo.svg" class="inline-block md:hidden p-5" (click)="toggleItems()" alt="" srcset="">
+    <div [ngClass]="{'hidden': !mobileToggle}" class="absolute bg-genki-orange shadow-genki-orange z-30 top-[72px] left-2 h-auto w-36 flex flex-col items-start justify-start">
+      <h1 class="md:inline my-2 text-center text-base text-white w-full">Docs</h1>
+      <h1 class="md:inline my-2 text-center text-base text-white w-full">Whitepaper</h1>
+      <h1 class="md:inline my-2 text-center text-base text-white w-full">Genki Search</h1>  
+    </div>
+
+    <img src="../../../assets/img/header-logo.svg"
+      class="h-16 md:z-20 md:h-min md:origin-top md:overflow-hidden md:mt-16 md:mr-12" alt="">
+    
+    <h1 class="hidden md:inline text-base text-white">Docs</h1>
+    <div class="hidden md:inline h-7 mx-4 border-l-2 border-solid border-white"></div>
+    <h1 class="hidden md:inline text-base text-white">Whitepaper</h1>
+    <div class="hidden md:inline h-7 mx-4 border-l-2 border-solid border-white"></div>
+    <h1 class="hidden md:inline text-base text-white">Genki Search</h1>
+
+  </div>
+  <button class="h-8 bg-white text-genki-orange flex items-center rounded justify-center px-6">
+    <h1>Use Genki</h1>
+    <img src="../../../assets/img/right-arrow.svg" alt="" srcset="" class="ml-3">
+  </button>
+</header>
