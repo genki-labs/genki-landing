@@ -19,24 +19,26 @@
       </button>
     </div>
   </header> -->
-<header class="z-10 h-16 md:h-12 md:px-[75px] pr-8 w-full bg-genki-orange flex fixed md:static justify-between items-center">
+<header class="z-10 h-16 md:h-12 md:px-[75px] pr-8 w-full bg-genki-orange flex md:static justify-between items-center">
   <div class="flex items-center justify-start">
     
     <img src="../../../assets/img/options-logo.svg" class="inline-block md:hidden p-5" (click)="toggleItems()" alt="" srcset="">
-    <div [ngClass]="{'hidden': !mobileToggle}" class="absolute bg-genki-orange shadow-genki-orange z-30 top-[72px] left-2 h-auto w-36 flex flex-col items-start justify-start">
-      <h1 class="md:inline my-2 text-center text-base text-white w-full">Docs</h1>
-      <h1 class="md:inline my-2 text-center text-base text-white w-full">Whitepaper</h1>
-      <h1 class="md:inline my-2 text-center text-base text-white w-full">Genki Search</h1>  
+    <div [ngClass]="{'hidden': !mobileToggle}" class="absolute bg-white shadow-black drop-shadow-lg z-30 top-[72px] mx-2 h-40 w-[96%] flex flex-col items-center justify-center">
+      <h1 class="md:inline my-2 text-center text-base text-genki-green-tertiary w-full">Docs</h1>
+      <div class="md:hidden inline w-[318px] mx-4 border-t border-solid border-genki-green-secondary"></div>
+      <h1 class="md:inline my-2 text-center text-base text-genki-green-tertiary w-full">Whitepaper</h1>
+      <div class="md:hidden inline w-[318px] mx-4 border-t border-solid border-genki-green-secondary"></div>
+      <h1 class="md:inline my-2 text-center text-base text-genki-green-tertiary w-full">Genki Search</h1>
     </div>
 
     <img src="../../../assets/img/header-logo.svg"
       class="h-16 md:z-20 md:h-min md:origin-top md:overflow-hidden md:mt-16 md:mr-12" alt="">
     
-    <a class="hidden md:inline text-base text-white cursor-pointer">Docs</a>
+    <a class="hidden md:inline text-base text-white cu">Docs</a>
     <div class="hidden md:inline h-7 mx-4 border-l-2 border-solid border-white"></div>
-    <a class="hidden md:inline text-base text-white cursor-pointer">Whitepaper</a>
+    <a class="hidden md:inline text-base text-white cu">Whitepaper</a>
     <div class="hidden md:inline h-7 mx-4 border-l-2 border-solid border-white"></div>
-    <a class="hidden md:inline text-base text-white cursor-pointer">Genki Search</a>
+    <a class="hidden md:inline text-base text-white cu">Genki Search</a>
 
   </div>
   <button class="h-8 bg-white text-genki-orange flex items-center rounded justify-center px-6">
