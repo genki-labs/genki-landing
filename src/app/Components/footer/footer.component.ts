@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataPipelineService } from 'src/app/Service/data-pipeline.service';
 
 @Component({
   selector: 'app-footer',
@@ -8,8 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
-
+  public Data:any;
+  public mobileToggle: boolean = false;
+  constructor(public abstractData: DataPipelineService) { 
+    this.Data = abstractData.data.Footer;
+  }
   ngOnInit(): void {
   }
 

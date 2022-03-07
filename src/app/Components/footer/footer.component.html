@@ -5,18 +5,18 @@
       <img src="../../../assets/img/logo-bg.svg" alt="">
       <div class="flex items-start justify-between md:w-full">
         <div class="ml-10 mt-5 flex flex-col items-start justify-start">
-          <h1>Project</h1>
+          <h1>{{Data.Category1Title}}</h1>
           <div class="flex flex-col md:flex-row">
-            <a class="text-base font-thin mr-3 cursor-pointer">Docs</a>
-            <a class="text-base font-thin mr-3 cursor-pointer">Whitepaper</a>
+            <a [href]="Data.Category1[0].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category1[0].Description}}</a>
+            <a [href]="Data.Category1[1].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category1[1].Description}}</a>
           </div>
         </div>
         <div class="ml-10 mt-5 flex flex-col items-start justify-start">
-          <h1>Social</h1>
+          <h1>{{Data.Category2Title}}</h1>
           <div class="flex flex-col md:flex-row">
-            <a class="text-base font-thin mr-3 cursor-pointer">Twitter</a>
-            <a class="text-base font-thin mr-3 cursor-pointer">Discord</a>
-            <a class="text-base font-thin mr-3 cursor-pointer">Mirror</a>
+            <a [href]="Data.Category2[0].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[0].Description}}</a>
+            <a [href]="Data.Category2[1].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[1].Description}}</a>
+            <a [href]="Data.Category2[2].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[2].Description}}</a>
           </div>
         </div>
       </div>

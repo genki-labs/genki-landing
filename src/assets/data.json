@@ -3,43 +3,43 @@
     "LogoPath": "",
     "Name": "Genki",
     "AllLinks": [
-      { "Description": "Docs", "Link": "" },
+      { "Description": "Docs", "Link": "https://google.com" },
       { "Description": "Whitepaper", "Link": "" },
       { "Description": "Genki Search", "Link": "" }
     ],
     "Button": {
-      "Title": "",
-      "Link": ""
+      "Title": "Use Genki",
+      "Link": "https://google.com"
     }
   },
   "Hero": {
-    "ImagePath": "",
-    "Title": "",
-    "Description": "",
+    "TitleLine1": "Connects users and projects in",
+    "TitleLine2": "Web 3.0 native ways",
+    "Description": "Referal System, Social Graph Anaylsis, and Curator Network",
     "ButtonLinks": [
-      { "Description": "", "Link": "" },
-      { "Description": "", "Link": "" }
+      { "Description": "Use Genki", "Link": "" },
+      { "Description": "Join Discord", "Link": "" }
     ]
   },
-  "Feature-1": {
+  "Feature1": {
     "ImagePath": "",
-    "Title": "",
-    "Description": ""
+    "Title": "Users",
+    "Description": "Craft your own Web 3.0 map by exploring Dapps and educating friends. Enjoy the accumulation of on-chain credentials and rewards in your crypto journey"
   },
-  "Feature-2": {
+  "Feature2": {
     "ImagePath": "",
-    "Title": "",
-    "Description": ""
+    "Title": "Projects",
+    "Description": "Leverage Genki and deploy campaigns on it can bring Dapps effectives traffics. Plus a dashboard to monitor campaign results in different social angels to help you decide the future strategy wisely."
   },
-  "Feature-3": {
+  "Feature3": {
     "ImagePath": "",
-    "Title": "",
-    "Description": ""
+    "Title": "Channel",
+    "Description": "Unlock the influence value of your channel by collaborating and connecting with Genki. Focus and educate your community followers in your way. Every users routes through your channel will be credit to your Web 3.0 address. In the future world, show the Web 3.0 record and gather partnership in the lowest trust cost"
   },
-  "Feature-4": {
+  "Feature4": {
     "ImagePath": "",
-    "Title": "",
-    "Description": ""
+    "Title": "What is Genki?",
+    "Description": "Currently, Projects leverage channels to reach users. In the future, projects leverage channels + Genki to know users and channels better. Also, analyze the behaviors in a one-stop dashboard."
   },
   "GenkiFriends": {
     "Title": "",
@@ -64,19 +64,20 @@
     ]
   },
   "Footer": {
-    "LogoPath": "",
     "Title": "",
     "Description": "",
+    "Category1Title":"Project",
     "Category1": [
-      { "Description": "", "Link": "" },
-      { "Description": "", "Link": "" },
+      { "Description": "Docs", "Link": "https://google.com" },
+      { "Description": "Whitepaper", "Link": "https://google.com" },
       { "Description": "", "Link": "" },
       { "Description": "", "Link": "" }
     ],
+    "Category2Title":"Social",
     "Category2": [
-      { "Description": "", "Link": "" },
-      { "Description": "", "Link": "" },
-      { "Description": "", "Link": "" },
+      { "Description": "Twitter", "Link": "" },
+      { "Description": "Discord", "Link": "" },
+      { "Description": "Mirror", "Link": "" },
       { "Description": "", "Link": "" }
     ],
     "Category3": [

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataPipelineService } from 'src/app/Service/data-pipeline.service';
 
 @Component({
   selector: 'app-about-genki',
@@ -8,8 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutGenkiComponent implements OnInit {
 
-  constructor() { }
-
+  public Data:any;
+  public mobileToggle: boolean = false;
+  constructor(public abstractData: DataPipelineService) { 
+    this.Data = abstractData.data.Feature4;
+  }
   ngOnInit(): void {
   }
 

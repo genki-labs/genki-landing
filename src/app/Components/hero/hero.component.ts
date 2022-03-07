@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataPipelineService } from 'src/app/Service/data-pipeline.service';
 
 @Component({
   selector: 'app-hero',
@@ -8,8 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  constructor() { }
-
+  public Hero:any;
+  public mobileToggle: boolean = false;
+  constructor(public abstractData: DataPipelineService) { 
+    this.Hero = abstractData.data.Hero
+  }
   ngOnInit(): void {
   }
 

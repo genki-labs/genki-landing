@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataPipelineService } from 'src/app/Service/data-pipeline.service';
 
 @Component({
   selector: 'app-channel-feature',
@@ -8,8 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChannelFeatureComponent implements OnInit {
 
-  constructor() { }
-
+  public Data:any;
+  public mobileToggle: boolean = false;
+  constructor(public abstractData: DataPipelineService) { 
+    this.Data = abstractData.data.Feature3;
+  }
   ngOnInit(): void {
   }
 
