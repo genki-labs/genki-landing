@@ -13,9 +13,9 @@
     }
   },
   "Hero": {
-    "TitleLine1": "Connects users and projects in",
-    "TitleLine2": "Web 3.0 native ways",
-    "Description": "Referal System, Social Graph Anaylsis, and Curator Network",
+    "TitleLine1": "A web 3.0 community on-ramp platform",
+    "TitleLine2": "for marketing rails",
+    "Description": "Referal System, Curator DAO, and Social Graph Analysis",
     "ButtonLinks": [
       { "Description": "Use Genki", "Link": "" },
       { "Description": "Join Discord", "Link": "" }
@@ -24,22 +24,22 @@
   "Feature1": {
     "ImagePath": "",
     "Title": "Users",
-    "Description": "Craft your own Web 3.0 map by exploring Dapps and educating friends. Enjoy the accumulation of on-chain credentials and rewards in your crypto journey"
+    "Description": "Explore new projects and learn skills by completing different task cards. Users collect NFT and level up ranking with completed quests on Genki. Have fun and craft unique Web 3.0 maps with the community."
   },
   "Feature2": {
     "ImagePath": "",
     "Title": "Projects",
-    "Description": "Leverage Genki and deploy campaigns on it can bring Dapps effectives traffics. Plus a dashboard to monitor campaign results in different social angels to help you decide the future strategy wisely."
+    "Description": "By knowing each channel’s on-chain profiles, projects save cost on searching channels for community and marketing. Projects’ Quests deployed on Genki will be picked up by global users and influencers in a trustless way. Rewards are distributed based on the on-chain performance. Projects can evaluate the results in the Genki dashboard and adjust further strategy."
   },
   "Feature3": {
     "ImagePath": "",
     "Title": "Channel",
-    "Description": "Unlock the influence value of your channel by collaborating and connecting with Genki. Focus and educate your community followers in your way. Every users routes through your channel will be credit to your Web 3.0 address. In the future world, show the Web 3.0 record and gather partnership in the lowest trust cost"
+    "Description": "Turn your loyal followers into value in a Web 3.0 way. Choose the interested quests on Genki. Register the ID and create referral links from Genki Smart contracts. Every new member you bring into the Web 3.0 world will be rewarded with appointed rewards from Dapps or Genki. Accumulating the on-chain credentials will unlock many more opportunities in the crypto world."
   },
   "Feature4": {
     "ImagePath": "",
     "Title": "What is Genki?",
-    "Description": "Currently, Projects leverage channels to reach users. In the future, projects leverage channels + Genki to know users and channels better. Also, analyze the behaviors in a one-stop dashboard."
+    "Description": "A web 3.0 community on-ramp platform where projects, channels, users and validators can build new connections in a trustless way."
   },
   "GenkiFriends": {
     "Title": "",
@@ -75,7 +75,7 @@
     ],
     "Category2Title":"Social",
     "Category2": [
-      { "Description": "Twitter", "Link": "" },
+      { "Description": "Twitter", "Link": "https://twitter.com/genki_io" },
       { "Description": "Discord", "Link": "" },
       { "Description": "Mirror", "Link": "" },
       { "Description": "", "Link": "" }
