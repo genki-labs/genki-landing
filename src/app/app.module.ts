@@ -13,6 +13,7 @@ import { TeamComponent } from './Components/team/team.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { GenkiFriendsComponent } from './Components/genki-friends/genki-friends.component';
 import { DataPipelineService } from './Service/data-pipeline.service';
+import { PopupComponent } from './Components/popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DataPipelineService } from './Service/data-pipeline.service';
     AboutGenkiComponent,
     TeamComponent,
     FooterComponent,
-    GenkiFriendsComponent
+    GenkiFriendsComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
