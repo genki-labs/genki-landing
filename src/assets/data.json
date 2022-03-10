@@ -9,7 +9,7 @@
     ],
     "Button": {
       "Title": "Use Genki",
-      "Link": "https://docs.genki.io/genki/use-genki"
+      "Link": ""
     }
   },
   "Hero": {
@@ -17,8 +17,8 @@
     "TitleLine2": "for marketing rails",
     "Description": "Referal System, Curator DAO, and Social Graph Analysis",
     "ButtonLinks": [
-      { "Description": "Use Genki", "Link": "https://docs.genki.io/genki/use-genki" },
-      { "Description": "Join Discord", "Link": "" }
+      { "Description": "Use Genki", "Link": "" },
+      { "Description": "Join Discord", "Link": "https://discord.gg/bFgk9xD87c" }
     ]
   },
   "Feature1": {
