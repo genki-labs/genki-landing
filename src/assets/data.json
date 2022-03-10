@@ -69,7 +69,7 @@
     "Category1Title":"Project",
     "Category1": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
-      { "Description": "Whitepaper", "" },
+      { "Description": "Whitepaper", "Link": "" },
       { "Description": "", "Link": "" },
       { "Description": "", "Link": "" }
     ],
