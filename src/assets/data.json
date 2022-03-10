@@ -3,13 +3,13 @@
     "LogoPath": "",
     "Name": "Genki",
     "AllLinks": [
-      { "Description": "Docs", "Link": "https://binance.org" },
+      { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
       { "Description": "Whitepaper", "Link": "" },
       { "Description": "Genki Search", "Link": "" }
     ],
     "Button": {
       "Title": "Use Genki",
-      "Link": "https://google.com"
+      "Link": "https://docs.genki.io/genki/use-genki"
     }
   },
   "Hero": {
@@ -17,7 +17,7 @@
     "TitleLine2": "for marketing rails",
     "Description": "Referal System, Curator DAO, and Social Graph Analysis",
     "ButtonLinks": [
-      { "Description": "Use Genki", "Link": "" },
+      { "Description": "Use Genki", "Link": "https://docs.genki.io/genki/use-genki" },
       { "Description": "Join Discord", "Link": "" }
     ]
   },
@@ -68,15 +68,15 @@
     "Description": "",
     "Category1Title":"Project",
     "Category1": [
-      { "Description": "Docs", "Link": "https://google.com" },
-      { "Description": "Whitepaper", "Link": "https://google.com" },
+      { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
+      { "Description": "Whitepaper", "" },
       { "Description": "", "Link": "" },
       { "Description": "", "Link": "" }
     ],
     "Category2Title":"Social",
     "Category2": [
       { "Description": "Twitter", "Link": "https://twitter.com/genki_io" },
-      { "Description": "Discord", "Link": "" },
+      { "Description": "Discord", "Link": "https://discord.gg/bFgk9xD87c" },
       { "Description": "Mirror", "Link": "" },
       { "Description": "", "Link": "" }
     ],
