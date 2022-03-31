@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   deploy:
     docker:
-      - image: cimg/node:15.1
+      - image: cimg/python:3.8.0-node
     steps:
       - checkout
       - restore_cache:
@@ -20,8 +20,11 @@ jobs:
           paths:
             - ~/.npm
       - run:
-          name: Build
+          name: build
           command: ng build
+      - run:
+          name: deploy
+          command: rsync -avz --delete dist/genki-landing/* ec2-user@ec2-65-1-107-237.ap-south-1.compute.amazonaws.com:/var/www/html/
 
 workflows:
   orb-free-workflow:
