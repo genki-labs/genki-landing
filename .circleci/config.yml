@@ -20,6 +20,9 @@ jobs:
           paths:
             - ~/.npm
       - run:
+          name: install rsync
+          command: sudo apt install rsync
+      - run:
           name: build
           command: ng build
       - run:
