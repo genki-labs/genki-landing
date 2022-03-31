@@ -20,11 +20,24 @@ jobs:
           paths:
             - ~/.npm
       - run:
-          name: install rsync
-          command: sudo apt install rsync
-      - run:
           name: build
           command: ng build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - dist
+  deploy:
+    docker:
+      - image: cimg/base:current
+    steps:
+      - attach_workspace:
+          at: ./dist
+      - add_ssh_keys:
+          fingerprints:
+            - "04:42:6b:71:3a:a6:1a:5b:ee:5a:ac:a4:e0:a5:fd:4e"
+      - run:
+          name: install rsync
+          command: sudo apt install rsync
       - run:
           name: deploy
           command: rsync -avz --delete dist/genki-landing/* ec2-user@ec2-65-1-107-237.ap-south-1.compute.amazonaws.com:/var/www/html/
@@ -32,4 +45,7 @@ jobs:
 workflows:
   orb-free-workflow:
     jobs:
+      - build
       - deploy
+          requires:
+            - build
