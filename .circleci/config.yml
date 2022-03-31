@@ -46,6 +46,6 @@ workflows:
   orb-free-workflow:
     jobs:
       - build
-      - deploy
+      - deploy:
           requires:
             - build
