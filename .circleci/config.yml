@@ -31,7 +31,7 @@ jobs:
       - image: cimg/base:current
     steps:
       - attach_workspace:
-          at: ./dist
+          at: .
       - add_ssh_keys:
           fingerprints:
             - "04:42:6b:71:3a:a6:1a:5b:ee:5a:ac:a4:e0:a5:fd:4e"
