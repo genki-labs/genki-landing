@@ -26,11 +26,11 @@
       </h1>
       <p class="mb-8 text-left leading-relaxed text-genki-green-tertiary">{{Hero.Description}} </p>
       <div class="flex items-center w-full justify-start">
-        <!-- <a [href]="Hero.ButtonLinks[0].Link"> -->
-          <button (click)="togglePopup.toggle()"
+        <a [href]="Hero.ButtonLinks[0].Link">
+          <button
             class="h-12 w-44 text-base items-center justify-center inline-flex text-white bg-genki-red-primary border-0 py-2 px-6 focus:outline-none hover:bg-[#FFF8EC] hover:text-[#F96F58] hover:border hover:border-[#F96F58] ease-in-out rounded">
             {{Hero.ButtonLinks[0].Description}}</button>
-        <!-- </a> -->
+        </a>
         <a [href]="Hero.ButtonLinks[1].Link"><button
             class="h-12 w-44 text-base items-center justify-between ml-4 inline-flex text-white bg-genki-green-secondary border-0 py-2 px-6 focus:outline-none hover:bg-[#A3C9C6] rounded">
             <img src="../../../assets/img/discord-logo.svg" class="h-6 w-5" alt="" srcset="">
