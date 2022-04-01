@@ -40,7 +40,7 @@ jobs:
           command: sudo apt update && sudo apt install rsync
       - run:
           name: deploy
-          command: rsync -avz --delete dist/genki-landing/* ec2-user@ec2-65-1-107-237.ap-south-1.compute.amazonaws.com:/var/www/html/
+          command: rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" dist/genki-landing/* ec2-user@ec2-65-1-107-237.ap-south-1.compute.amazonaws.com:/var/www/html/
 
 workflows:
   orb-free-workflow:
@@ -49,3 +49,6 @@ workflows:
       - deploy:
           requires:
             - build
+          filters:
+            branches:
+              only: master
