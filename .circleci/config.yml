@@ -1,0 +1,54 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:16.14
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+      - run:
+          name: install packages
+          command: npm ci
+      - run:
+          name: link AngularCLI
+          command: sudo npm link @angular/cli
+      - save_cache:
+          key: node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+          paths:
+            - ~/.npm
+      - run:
+          name: build
+          command: ng build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - dist
+  deploy:
+    docker:
+      - image: cimg/base:current
+    steps:
+      - attach_workspace:
+          at: ./dist
+      - add_ssh_keys:
+          fingerprints:
+            - "04:42:6b:71:3a:a6:1a:5b:ee:5a:ac:a4:e0:a5:fd:4e"
+      - run:
+          name: install rsync
+          command: sudo apt update && sudo apt install rsync
+      - run:
+          name: deploy
+          command: rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" dist/genki-landing/* ec2-user@ec2-65-1-107-237.ap-south-1.compute.amazonaws.com:/var/www/html/
+
+workflows:
+  orb-free-workflow:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
