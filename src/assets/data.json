@@ -1,6 +1,9 @@
 {
   "Header": {
-    "LogoPath": "",
+    "Logo": {
+      "ImagePath": "../../../assets/img/header-logo.svg",
+      "Link": "https://genki.io/"
+    },
     "Name": "Genki",
     "AllLinks": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
@@ -66,6 +69,10 @@
   "Footer": {
     "Title": "",
     "Description": "",
+    "Logo": {
+      "ImagePath": "../../../assets/img/header-logo.svg",
+      "Link": "https://genki.io/"
+    },
     "Category1Title":"Project",
     "Category1": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
