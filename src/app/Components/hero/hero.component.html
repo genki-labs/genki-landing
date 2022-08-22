@@ -25,23 +25,23 @@
         <div class="text-genki-green-secondary font-medium">{{Hero.TitleLine2}}</div>
       </h1>
       <p class="mb-8 text-left leading-relaxed text-genki-green-tertiary">{{Hero.Description}} </p>
-      <div class="flex items-center w-full justify-start">
+      <div class="flex-col gap-2 sm:flex-row sm:gap-4 flex items-center w-full justify-start">
         <a [href]="Hero.ButtonLinks[0].Link">
           <button
-            class="h-12 w-44 text-base items-center justify-center inline-flex text-white bg-genki-red-primary border-0 py-2 px-6 focus:outline-none hover:bg-[#FFF8EC] hover:text-[#F96F58] hover:border hover:border-[#F96F58] ease-in-out rounded">
+            class="h-12 w-44 text-base items-center justify-center inline-flex text-white bg-genki-red-primary border-2 sm:border-0 border-white py-2 px-6 focus:outline-none hover:bg-[#ff9b8a] ease-in-out rounded">
             {{Hero.ButtonLinks[0].Description}}</button>
         </a>
         <a [href]="Hero.ButtonLinks[1].Link"><button
-            class="h-12 w-44 text-base items-center justify-between ml-4 inline-flex text-white bg-genki-green-secondary border-0 py-2 px-6 focus:outline-none hover:bg-[#A3C9C6] rounded">
+            class="h-12 w-44 text-base items-center justify-between inline-flex text-white bg-genki-green-secondary border-2 sm:border-0 border-white py-2 px-6 focus:outline-none hover:bg-[#A3C9C6] ease-in-out rounded">
             <img src="../../../assets/img/discord-logo.svg" class="h-6 w-5" alt="" srcset="">
             {{Hero.ButtonLinks[1].Description}}
           </button>
         </a>
       </div>
-      <div class="hidden md:flex items-center justify-start text-lg mt-24 text-genki-green-tertiary">
+      <!-- <div class="hidden md:flex items-center justify-start text-lg mt-24 text-genki-green-tertiary">
         Learn More
         <img src="../../../assets/img/down-arrow.svg" class="ml-4" alt="">
-      </div>
+      </div> -->
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <!-- <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> -->
