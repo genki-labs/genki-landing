@@ -7,12 +7,12 @@
     "Name": "Genki",
     "AllLinks": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
-      { "Description": "Whitepaper", "Link": "" },
+      { "Description": "Demo Campaign", "Link": "https://box.genki.io/UTDXIK" },
       { "Description": "Genki Search", "Link": "" }
     ],
     "Button": {
       "Title": "Use Genki",
-      "Link": "https://box.genki.io/UTDXIK"
+      "Link": "https://box.genki.io/portal"
     }
   },
   "Hero": {
@@ -73,10 +73,10 @@
       "ImagePath": "../../../assets/img/header-logo.svg",
       "Link": "https://genki.io/"
     },
-    "Category1Title":"Project",
+    "Category1Title":"Links",
     "Category1": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
-      { "Description": "Whitepaper", "Link": "" },
+      { "Description": "Demo Campaign", "Link": "https://box.genki.io/UTDXIK" },
       { "Description": "", "Link": "" },
       { "Description": "", "Link": "" }
     ],
