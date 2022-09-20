@@ -1,11 +1,11 @@
 <footer class="text-white flex flex-col items-start justify-center body-font">
   <img src="../../../assets/img/footer-decor.svg" class="w-full" alt="" srcset="">
-  <div class="h-44 w-full bg-[#235a58] flex flex-col items-center justify-between">
-    <div class="w-full h-full md:px-24 px-[10%] flex items-start justify-start">
+  <div class="w-full bg-[#235a58] flex flex-col items-center justify-between">
+    <div class="w-full h-full md:px-24 px-[10%] flex items-start justify-start mb-5">
       <a [href]="Data.Logo.Link">
         <img [src]="Data.Logo.ImagePath" alt="">
       </a>
-      <div class="flex items-start justify-between md:w-full">
+      <div class="flex items-start justify-between md:w-full flex-col md:flex-row">
         <div class="ml-10 mt-5 flex flex-col items-start justify-start">
           <h1>{{Data.Category1Title}}</h1>
           <div class="flex flex-col md:flex-row">
@@ -13,12 +13,27 @@
             <a [href]="Data.Category1[1].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category1[1].Description}}</a>
           </div>
         </div>
-        <div class="ml-10 mt-5 flex flex-col items-start justify-start">
-          <h1>{{Data.Category2Title}}</h1>
-          <div class="flex flex-col md:flex-row">
-            <a [href]="Data.Category2[0].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[0].Description}}</a>
-            <a [href]="Data.Category2[1].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[1].Description}}</a>
-            <a [href]="Data.Category2[2].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[2].Description}}</a>
+        <div class="flex flex-col">
+          <div class="ml-10 mt-5 flex flex-col items-start justify-start">
+            <h1>{{Data.Category2Title}}</h1>
+            <div class="flex flex-col md:flex-row">
+              <a [href]="Data.Category2[0].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[0].Description}}</a>
+              <a [href]="Data.Category2[1].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[1].Description}}</a>
+              <a [href]="Data.Category2[2].Link" class="text-base font-thin mr-3 cursor-pointer">{{Data.Category2[2].Description}}</a>
+            </div>
+          </div>
+          <div class="ml-10 mt-5 flex flex-col items-start justify-start">
+            <h1>{{Data.Category3Title}}</h1>
+            <div class="flex flex-col md:flex-row">
+              <a [href]="Data.Category3[0].Link" class="text-base font-thin mr-3 cursor-pointer">
+                <div style="display: inline-flex; align-items: center;">
+                {{Data.Category3[0].Description}}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                  <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
+                </svg>
+              </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

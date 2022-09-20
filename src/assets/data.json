@@ -73,22 +73,23 @@
       "ImagePath": "../../../assets/img/header-logo.svg",
       "Link": "https://genki.io/"
     },
-    "Category1Title":"Links",
+    "Category1Title": "Links",
     "Category1": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
       { "Description": "Demo Campaign", "Link": "https://box.genki.io/UTDXIK" },
       { "Description": "", "Link": "" },
       { "Description": "", "Link": "" }
     ],
-    "Category2Title":"Social",
+    "Category2Title": "Social",
     "Category2": [
       { "Description": "Twitter", "Link": "https://twitter.com/genki_io" },
       { "Description": "Discord", "Link": "https://discord.gg/bFgk9xD87c" },
       { "Description": "Mirror", "Link": "https://mirror.xyz/0x3290BB2dba0a4DEa2c4723014c902a17B2bCa1aC" },
       { "Description": "", "Link": "" }
     ],
+    "Category3Title": "Newsletter",
     "Category3": [
-      { "Description": "", "Link": "" },
+      { "Description": "Sign Up For Substack", "Link": "https://genkibox.substack.com/subscribe" },
       { "Description": "", "Link": "" },
       { "Description": "", "Link": "" },
       { "Description": "", "Link": "" }
