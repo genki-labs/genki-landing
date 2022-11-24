@@ -8,7 +8,8 @@
     "AllLinks": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
       { "Description": "Demo Campaign", "Link": "https://box.genki.io/UTDXIK" },
-      { "Description": "Genki Search", "Link": "" }
+      { "Description": "GenkiBox Portal", "Link": "https://box.genki.io/portal" },
+      { "Description": "Genki Compass", "Link": "https://compass.genki.io/" }
     ],
     "Button": {
       "Title": "Use Genki",
@@ -77,8 +78,8 @@
     "Category1": [
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
       { "Description": "Demo Campaign", "Link": "https://box.genki.io/UTDXIK" },
-      { "Description": "", "Link": "" },
-      { "Description": "", "Link": "" }
+      { "Description": "GenkiBox Portal", "Link": "https://box.genki.io/portal" },
+      { "Description": "Genki Compass", "Link": "https://compass.genki.io/" }
     ],
     "Category2Title": "Social",
     "Category2": [
