@@ -9,7 +9,8 @@
       { "Description": "Docs", "Link": "https://docs.genki.io/genki/what-is-genki" },
       { "Description": "Demo Campaign", "Link": "https://box.genki.io/UTDXIK" },
       { "Description": "GenkiBox Portal", "Link": "https://box.genki.io/portal" },
-      { "Description": "Genki Compass", "Link": "https://compass.genki.io/" }
+      { "Description": "Genki Compass", "Link": "https://compass.genki.io/" },
+      { "Description": "Genesis NFT", "Link": "https://genki.io/genesis-nft" }
     ],
     "Button": {
       "Title": "Use Genki",
